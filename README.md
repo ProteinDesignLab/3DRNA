@@ -34,7 +34,6 @@ The model uses a 3D CNN architecture that processes voxelized atomic environment
 ├── input/                 # Input PDB/CIF files
 ├── output/                # Output designed structures
 ├── splits/                # Train/test data splits
-├── ipybs/                 # Jupyter notebooks for analysis
 └── README.md
 ```
 
@@ -47,7 +46,7 @@ The model uses a 3D CNN architecture that processes voxelized atomic environment
 - NumPy
 - BioPython
 - PyRosetta (for structure manipulation)
-- wandb (for experiment tracking)
+- wandb
 - tqdm
 - pandas
 
